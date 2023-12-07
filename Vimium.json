@@ -1,14 +1,10 @@
 {
-  "keyMappings": "# Insert your preferred key mappings here.\nunmap f\nmap : LinkHints.activateMode",
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap f\nunmap F\nmap ; LinkHints.activateMode\nmap : LinkHints.activateModeToOpenInNewTab",
   "settingsVersion": "2.0.5",
   "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n  /* linkhint boxes */\n  background: #2c3e50; /* Dark gray background */\n  border: 1px solid #34495e; /* Border color */\n  border-radius: 4px; /* Rounded corners */\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle drop shadow */\n  padding: 2px 4px; /* Adjust padding for a smaller box */\n}\n\ndiv > .vimiumHintMarker span {\n  /* linkhint text */\n  color: #ecf0f1; /* Light text color */\n  font-weight: bold;\n  font-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n  /* Customize styles for matchingCharacter if needed */\n}",
   "exclusionRules": [
     {
-      "passKeys": "",
-      "pattern": "https?://mail.google.com/*"
-    },
-    {
-      "passKeys": "<>mt/",
+      "passKeys": "<>mt",
       "pattern": "https://www.youtube.com/*"
     }
   ]
