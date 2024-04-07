@@ -1,6 +1,6 @@
 {
-  "keyMappings": "# Insert your preferred key mappings here.\nunmap f\nunmap F\nunmap yf\nunmap gf\nunmap gF\nmap ; LinkHints.activateMode\nmap : LinkHints.activateModeToOpenInNewTab\nmap y; LinkHints.activateModeToCopyLinkUrl\nmap g; nextFrame\nmap g: mainFrame",
-  "settingsVersion": "2.0.5",
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap f\nunmap t\nunmap F\nunmap yf\nunmap gf\nunmap gF\nunmap d\nunmap u\nmap ; LinkHints.activateMode\nmap : LinkHints.activateModeToOpenInNewTab\nmap y; LinkHints.activateModeToCopyLinkUrl\nmap g; nextFrame\nmap <c-d> scrollPageDown\nmap <c-u> scrollPageUp\nmap g: mainFrame",
+  "settingsVersion": "2.1.2",
   "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n  /* linkhint boxes */\n  background: #2c3e50; /* Dark gray background */\n  border: 1px solid #34495e; /* Border color */\n  border-radius: 4px; /* Rounded corners */\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle drop shadow */\n  padding: 2px 4px; /* Adjust padding for a smaller box */\n}\n\ndiv > .vimiumHintMarker span {\n  /* linkhint text */\n  color: #ecf0f1; /* Light text color */\n  font-weight: bold;\n  font-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n  /* Customize styles for matchingCharacter if needed */\n}",
   "exclusionRules": [
     {
